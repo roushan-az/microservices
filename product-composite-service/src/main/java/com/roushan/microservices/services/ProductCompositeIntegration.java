@@ -1,4 +1,4 @@
-package com.roushan.product_composite_service.services;
+package com.roushan.microservices.services;
 
 import static java.util.logging.Level.FINE;
 import static reactor.core.publisher.Flux.empty;
@@ -48,6 +48,7 @@ public class ProductCompositeIntegration implements ProductService, Recommendati
 
   private final StreamBridge streamBridge;
 
+  @Autowired
   private final Scheduler publishEventScheduler;
 
   @Autowired

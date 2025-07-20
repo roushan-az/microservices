@@ -1,9 +1,9 @@
-package com.roushan.product_composite_service;
+package com.roushan.microservices;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.roushan.product_composite_service.services.ProductCompositeIntegration;
+import com.roushan.microservices.services.ProductCompositeIntegration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.health.CompositeReactiveHealthContributor;
 import org.springframework.boot.actuate.health.ReactiveHealthContributor;

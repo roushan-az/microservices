@@ -1,13 +1,13 @@
-package com.roushan.review_service;
+package com.roushan.microservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReviewServiceApplication {
+public class ProductServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReviewServiceApplication.class, args);
+		SpringApplication.run(ProductServiceApplication.class, args);
 	}
 
 }
