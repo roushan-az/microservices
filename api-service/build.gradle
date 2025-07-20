@@ -1,0 +1,9 @@
+plugins {
+    id 'org.springframework.boot' version '3.5.3' // Apply the Spring Boot plugin here
+    id 'java' // Or 'java-library' depending on whether it's a runnable app or a library
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.springdoc:springdoc-openapi-starter-webflux-ui:2.8.9'
+}

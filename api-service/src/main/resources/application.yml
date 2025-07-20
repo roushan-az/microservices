@@ -1,0 +1,6 @@
+server:
+  port: 7005
+
+spring:
+  application:
+    name: api
